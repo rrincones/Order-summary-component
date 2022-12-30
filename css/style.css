@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900;700&display=swap');
+
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  background-image: url("/images/pattern-background-mobile.svg");
+  background-size: cover;
+  background-color: hsl(225, 100%, 94%);
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  border-radius: 1rem;
+  box-shadow: 0 3rem 3rem -2rem hsla(224, 23%, 55%, .5);
+  background-color: hsl(360, 100%, 100%);
+}
+
+article > * {
+  margin-bottom: 1.25rem;
+}
+  
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 700;
+  letter-spacing: -.05rem;
+  color: hsl(224, 23%, 55%);
+}
+
+main > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 1rem 1rem 0 0;
+}
+
+article > p {
+  width: 93%;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+article > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: hsl(225, 100%, 98%);
+}
+
+h2 {
+  margin-bottom: -.75rem;
+  font-size: 0.85rem;
+}
+
+h1, h2 {
+  white-space: nowrap;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+button {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.75rem;
+  font-weight: 700;
+  box-shadow: 0 1rem 1.5rem hsla(245, 75%, 52%, .2);
+  color:hsl(360, 100%, 100%);
+  background-color: hsl(245, 75%, 52%);
+}
+
+div div {
+  margin-left: 1rem;
+}
+  
+a:nth-child(5) {
+  font-weight: 700;
+  margin: 0 auto;
+  text-decoration: none;
+  color: inherit;
+}
+
+div a {
+  color: hsl(245, 75%, 52%);
+  margin-left: auto;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: hsla(245, 75%, 52%, 0.7);
+}
+
+div a:hover {
+  color: hsla(245, 75%, 52%, 0.7);
+}
+
+article > a:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+@media (min-width: 769px) {
+  body {
+    background-image: url("/images/pattern-background-desktop.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  main {
+    max-width: 28rem;
+  }
+  
+  article {
+    padding: 3rem;
+  }
+}
