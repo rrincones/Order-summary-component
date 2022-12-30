@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://rrincones.github.io/Order-summary-component/)
+- Solution URL: [Frontend Mentor](https://your-solution-url.com)
+- Live Site URL: [GitHub Pages Live Site](https://rrincones.github.io/Order-summary-component/)
 
 ## My process
 
