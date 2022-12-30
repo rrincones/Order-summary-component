@@ -10,7 +10,7 @@
 body {
   display: flex;
   min-height: 100vh;
-  background-image: url("/images/pattern-background-mobile.svg");
+  background-image: url("../images/pattern-background-mobile.svg");
   background-size: cover;
   background-color: hsl(225, 100%, 94%);
 }
@@ -114,7 +114,7 @@ article > a:hover {
 
 @media (min-width: 769px) {
   body {
-    background-image: url("/images/pattern-background-desktop.svg");
+    background-image: url("../images/pattern-background-desktop.svg");
     background-size: 100%;
     background-repeat: no-repeat;
   }
