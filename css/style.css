@@ -105,6 +105,7 @@ button:hover {
 }
 
 div a:hover {
+  text-decoration-line: none;
   color: hsla(245, 75%, 52%, 0.7);
 }
 
